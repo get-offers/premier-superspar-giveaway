@@ -12,6 +12,15 @@
         <meta property="og:description" content="Premier SuperSpar - Prémios do 23º Aniversário" />
         <meta property="og:image" content="assets/banner.png" />
     <meta name="robots" content="noindex,nofollow" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ1QHGBBKM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJ1QHGBBKM');
+</script>
   </head>
   <body>
     <!-- Header -->
@@ -543,41 +552,8 @@
       </div>
     </div>
 
-    <script>
-      window.view = window.view || {};
-      view.offerUrl = "https:\/\/rdr.funcontent.xyz/click";
-      view.qs = null;
-      view.skip = 0;
-      view.screenshot = 0;
-      view.download = 1;
-      view.noredir = false;
-    </script>
     <script src="/app.js" type="application/javascript"></script>
 
-    <script>
-      var PreventExitPop = true;
-
-      function ExitPop() {
-        if (PreventExitPop != false) {
-          return "Não saia!";
-        }
-      }
-      window.onbeforeunload = ExitPop;
-    </script>
-    <script>
-      !(function () {
-        var t;
-        try {
-          const URL = window.location.href.split(/[#]/)[0];
-          for (t = 0; 10 > t; ++t) history.pushState({}, "", URL + "#");
-          onpopstate = function (event) {
-            event.state && location.replace("#");
-          };
-        } catch (o) {
-          console.log(o);
-        }
-      })();
-    </script>
 
     <script>
       navigator.vibrate([1000, 300, 1000, 300, 1000]);
